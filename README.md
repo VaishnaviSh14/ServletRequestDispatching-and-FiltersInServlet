@@ -31,3 +31,14 @@ first component rather the container will add
 the response from the first resource and it will forward it to second resource.
 => The response will be from
 TotalResponse = FirstResource + SecondResource
+
+#RequestDispatching -002
+
+<img width="960" alt="image" src="https://github.com/VaishnaviSh14/ServletRequestDispatching/assets/123576868/9ed061f6-b124-4dcd-891c-1124fb7a91ea">
+
+<img width="958" alt="image" src="https://github.com/VaishnaviSh14/ServletRequestDispatching/assets/123576868/5fefa19c-7f7b-4cde-b0e8-5af50aef52be">
+
+<img width="959" alt="image" src="https://github.com/VaishnaviSh14/ServletRequestDispatching/assets/123576868/f3a66820-c5b8-4752-aa23-f7c15cdf2cc8">
+
+
+
