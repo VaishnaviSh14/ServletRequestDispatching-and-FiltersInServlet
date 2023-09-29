@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style>
+  /* Internal CSS styles */
+  body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: #333; /* Dark gray text color */
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+  form {
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #aaa; /* Add a subtle box shadow */
+  }
+
+  label {
+    font-size: 18px;
+    color: #666; /* Slightly darker gray text color */
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #00a64e; /* Green button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+
+  input[type="submit"]:hover {
+    background-color: #00853e; /* Darker green on hover */
+  }
+</style>
+</head>
+<body>
+<h1>Welcome to Forward Demo</h1>
+<form action="./test1" method="get">
+   <label for="username">Username:</label>
+   <input type="text" id="username" name="username" required>
+   <label for="pwd">Password:</label>
+   <input type="password" id="pwd" name="pwd" required>
+   <input type="submit" value="Login">
+</form>
+</body>
+</html>
