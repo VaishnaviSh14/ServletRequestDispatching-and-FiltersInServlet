@@ -32,7 +32,7 @@ the response from the first resource and it will forward it to second resource.
 => The response will be from
 TotalResponse = FirstResource + SecondResource
 
-#RequestDispatching -002
+# RequestDispatching -002
 
 <img width="960" alt="image" src="https://github.com/VaishnaviSh14/ServletRequestDispatching/assets/123576868/9ed061f6-b124-4dcd-891c-1124fb7a91ea">
 
